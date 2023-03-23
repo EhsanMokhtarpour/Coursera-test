@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+h1 { 
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%
+  color: red;
+}
+
+div {
+  position: relative;
+  border: 1px solid black;
+  width: 95%;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: grey;
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  padding: 5px;
+  border: none;
+  background-color: gray;
+  color: black;
+  text-align: justify;
+  clear: both;
+}
+
+.chicken {
+  float: right;
+  width: 150px;
+  margin-top: 0px;
+  margin-right: 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  background-color: pink;
+  color: black;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.beef {
+  float: right;
+  width: 150px;
+  margin-top: 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  background-color: red;
+  color: white;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.sushi {
+  float: right;
+  width: 150px;
+  margin-top: 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  background-color: yellow;
+  color: black;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4,.col-lg-6,.col-lg-12 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4,.col-md-6,.col-md-12 {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%;
+    padding: 10px;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+ .col-sm-4,.col-sm-6,.col-sm-12 {
+    float: left;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
