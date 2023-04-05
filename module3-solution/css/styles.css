@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  
+  body {
+    font-family: cursive;
+  }
+  
+  h1 { 
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 175%
+    color: red;
+  }
+
+  .Chicken {
+    padding-top: 10px;
+    border-top: 2px solid #830606;
+    border-left: 2px solid #830606;
+    border-right: 2px solid #830606;
+    border-bottom: 1px solid #830606;
+  }
+
+  .Beef {
+    padding-top: 10px;
+    border-top: 1px solid #830606;
+    border-left: 2px solid #830606;
+    border-right: 2px solid #830606;
+    border-bottom: 1px solid #830606;
+
+  }
+
+  .Sushi {
+    padding-top: 10px;
+    border-top: 1px solid #830606;
+    border-left: 2px solid #830606;
+    border-right: 2px solid #830606;
+    border-bottom: 2px solid #830606;
+  }
+
+  .border {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkgray;
+  }
